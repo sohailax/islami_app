@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islami/app_colors.dart';
-import 'package:islami/tabs/hadeth_tab.dart';
-import 'package:islami/tabs/quran_tab.dart';
+import 'package:islami/tabs/hadeth/hadeth_tab.dart';
+import 'package:islami/tabs/quran/quran_tab.dart';
 import 'package:islami/tabs/radio_tab.dart';
 import 'package:islami/tabs/sebha_tab.dart';
 import 'package:islami/tabs/time_tab.dart';
@@ -14,7 +14,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int selectedIndex = 3;
+  int selectedIndex = 2;
   List<String> backgroungImages = [
     'assets/images/quran_bg.png',
     'assets/images/hadeth_bg.png',
