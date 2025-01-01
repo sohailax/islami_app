@@ -69,6 +69,7 @@ class OnboardingScreen extends StatelessWidget {
 
       pages: [
         PageViewModel(
+
           title: "Welcome To Islmi App",
           body:
               "",
